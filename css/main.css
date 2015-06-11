@@ -83,28 +83,67 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-section {
     background-color: #fff;
-    padding: 1px;
+    overflow: hidden;
+    padding: 30px 60px;
 }
 
 .whatido__skill--code{
     background-image: url("../img/skill-code.png");
     padding-top: 100px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
 
 .whatido__skill--design{
     background-image: url("../img/skill-design.png");
     padding-top: 100px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
 
 .whatido__skill--product{
     background-image: url("../img/skill-product.png");
     padding-top: 100px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
+
+.whatido ul li{
+    float:left;
+}
+
+.info-section .whatido__skill-list .whatido__skill--code{
+    width:33.3%;
+}
+
+.info-section .whatido__skill-list .whatido__skill--design{
+    width:33.3%;
+}
+
+.info-section .whatido__skill-list .whatido__skill--product{
+    width:33.3%;
+}
+
+.info-section ul li h3{
+    text-align: center;
+}
+
+.info-section header h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.info-section__description {
+    font-style: italic;
+}
+
+.info-section header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
 
 
