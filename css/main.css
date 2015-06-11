@@ -86,4 +86,25 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1px;
 }
 
+.whatido__skill--code{
+    background-image: url("../img/skill-code.png");
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.whatido__skill--design{
+    background-image: url("../img/skill-design.png");
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.whatido__skill--product{
+    background-image: url("../img/skill-product.png");
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
